@@ -2,12 +2,12 @@
 
 const config = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (Required)
+    username: 'AndrePhilot', // Your GitHub org/user name. (Required)
     sortBy: 'stars', // stars | updated
-    limit: 10, // How many projects to display.
+    limit: 4, // How many projects to display.
     exclude: {
-      forks: false, // Forked projects will not be displayed if set to true.
-      projects: [], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      forks: true, // Forked projects will not be displayed if set to true.
+      projects: ['Fruit_Search', 'Memory_Game'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1l-7lxKKdGVd8efLl-pldsWLRY_0zrwUX/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -51,6 +51,12 @@ const config = {
       to: 'Present',
       companyLink: 'https://www.springboard.com',
     },
+    {
+      company: 'International Schools in Brazil, Egypt, Italy, Myanmar and Guatemala',
+      position: 'High School Teacher',
+      from: '2010',
+      to: 'Present',
+    }
   ],
   /* certifications: [
     {
