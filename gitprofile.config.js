@@ -103,6 +103,13 @@ const config = {
       imageUrl: 'https://cdn.vox-cdn.com/thumbor/0mqD9EvEmDetvwWyxp18WLvIk7o=/0x0:420x314/1400x788/filters:focal(136x115:202x181):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/55279403/tenor.0.gif',
       link: 'https://andrephilot.github.io/GIF_Searcher/',
     },
+    {
+      title: 'AP Macro Graphing Tool',
+      description:
+      "I am thrilled to share my inaugural web application, a project I completed while enrolled in Khan Academy’s Computer Programming course. Despite the limitations of the course, which focused on Processing.js without the use of HTML or CSS and was taught before the introduction of ES6, I was able to complete a functional product. As you explore it, you'll notice the compact display, a consequence of the course's built-in code editor on the browser. This tool was specifically crafted to simplify my responsibilities as an AP Macro teacher. Its primary function is to generate all necessary AP Macro graphs for a variety of economic scenarios. By selecting the preferred graph model and optional curve shifts, I could effortlessly produce the visuals I needed. The process was streamlined: after configuring the parameters, I simply took a screenshot and incorporated it into my slide presentations or exams. The application also offers a reset feature for shifts, ensuring flexibility and ease of use. Moreover, I have implemented user-friendly features such as 'hoverable' buttons to enhance the overall user experience. I am proud of this achievement and excited to share it with y'all.",
+      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqpuFxsgZC1YrfxClJbj7zk--MrmU-oojF-g&usqp=CAU',
+      link: 'https://andrephilot.github.io/AP_Macro_Graphing_Tool/',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
