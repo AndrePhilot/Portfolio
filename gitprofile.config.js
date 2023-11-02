@@ -89,20 +89,20 @@ const config = {
 
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
-    // {
-    //   title: 'Project Name',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //   imageUrl: 'https://via.placeholder.com/250x250',
-    //   link: 'https://example.com',
-    // },
-    // {
-    //   title: 'Project Name',
-    //   description:
-    //     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-    //   imageUrl: 'https://via.placeholder.com/250x250',
-    //   link: 'https://example.com',
-    // },
+    {
+      title: 'Hack or Snooze',
+      description:
+        'In this project, users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There`s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6, incorporating AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
+      imageUrl: 'https://i.ytimg.com/vi/S-ulm49hvmk/maxresdefault.jpg',
+      link: 'https://andrephilot.github.io/Hacker_Or_Snooze/',
+    },
+    {
+      title: 'GIF Searcher',
+      description:
+        'The goal was to communicate with an API using AJAX and display random GIFs based on any keyword searched by a user.',
+      imageUrl: 'https://cdn.vox-cdn.com/thumbor/0mqD9EvEmDetvwWyxp18WLvIk7o=/0x0:420x314/1400x788/filters:focal(136x115:202x181):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/55279403/tenor.0.gif',
+      link: 'https://andrephilot.github.io/GIF_Searcher/',
+    },
   ],
   // Display blog posts from your medium or dev account. (Optional)
   blog: {
