@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1l-7lxKKdGVd8efLl-pldsWLRY_0zrwUX/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1aTiBmH3NZegxSpgNrxvPgNFItZ1vzBz_/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'JavaScript',
@@ -45,11 +45,11 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Springboard',
-      position: 'Trainee',
+      company: 'Springboard Bootcamp',
+      position: 'Trainee in the Software Engineering Career Track',
       from: 'August 2023',
       to: 'Present',
-      companyLink: 'https://www.springboard.com',
+      companyLink: 'https://www.springboard.com/courses/software-engineering-career-track/',
     },
     {
       company: 'International Schools in Brazil, Egypt, Italy, Myanmar and Guatemala',
@@ -92,21 +92,21 @@ const config = {
     {
       title: 'Hack or Snooze',
       description:
-        'In this project, users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There`s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6, incorporating AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
+        'Technlogies: <strong>JavaScript ES6, AJAX (axios), HTML5, CSS3</strong><br>In this project, users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There`s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6, incorporating AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
       imageUrl: 'https://i.ytimg.com/vi/S-ulm49hvmk/maxresdefault.jpg',
       link: 'https://andrephilot.github.io/Hacker_Or_Snooze/',
     },
     {
       title: 'GIF Searcher',
       description:
-        'The goal was to communicate with an API using AJAX and display random GIFs based on any keyword searched by a user.',
+        'Technlogies: <strong>JavaScript, HTML5, CSS3</strong><br>The goal was to communicate with an API using AJAX and display random GIFs based on any keyword searched by a user.',
       imageUrl: 'https://cdn.vox-cdn.com/thumbor/0mqD9EvEmDetvwWyxp18WLvIk7o=/0x0:420x314/1400x788/filters:focal(136x115:202x181):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/55279403/tenor.0.gif',
       link: 'https://andrephilot.github.io/GIF_Searcher/',
     },
     {
       title: 'AP Macro Graphing Tool',
       description:
-      "I am thrilled to share my inaugural web application, a project I completed while enrolled in Khan Academy’s Computer Programming course. Despite the limitations of the course, which focused on Processing.js without the use of HTML or CSS and was taught before the introduction of ES6, I was able to complete a functional product. As you explore it, you'll notice the compact display, a consequence of the course's built-in code editor on the browser. This tool was specifically crafted to simplify my responsibilities as an AP Macro teacher. Its primary function is to generate all necessary AP Macro graphs for a variety of economic scenarios. By selecting the preferred graph model and optional curve shifts, I could effortlessly produce the visuals I needed. The process was streamlined: after configuring the parameters, I simply took a screenshot and incorporated it into my slide presentations or exams. The application also offers a reset feature for shifts, ensuring flexibility and ease of use. Moreover, I have implemented user-friendly features such as 'hoverable' buttons to enhance the overall user experience. I am proud of this achievement and excited to share it with y'all.",
+      "Technlogies: <strong>Process.js</strong><br>This is a project I completed before I was even enrolled in the Springboard bootcamp, while I was self-studying with the help of Khan Academy’s Computer Programming course. Despite the limitations of the course, which focused on Processing.js without the use of HTML or CSS and was taught before the introduction of ES6, I was able to complete a functional product. As you explore it, you'll notice the compact display, a consequence of the course's built-in code editor on the browser. This tool was specifically crafted to simplify my responsibilities as an AP Macro teacher. Its primary function is to generate all necessary AP Macro graphs for a variety of economic scenarios. By selecting the preferred graph model and optional curve shifts, I could effortlessly produce the visuals I needed.",
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqpuFxsgZC1YrfxClJbj7zk--MrmU-oojF-g&usqp=CAU',
       link: 'https://andrephilot.github.io/AP_Macro_Graphing_Tool/',
     },
