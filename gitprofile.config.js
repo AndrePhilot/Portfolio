@@ -53,7 +53,7 @@ const config = {
     },
     {
       company: 'International Schools in Brazil, Egypt, Italy, Myanmar and Guatemala',
-      position: 'High School Teacher',
+      position: 'High School Humanities Teacher',
       from: '2010',
       to: 'Present',
     }
