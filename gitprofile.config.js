@@ -92,21 +92,21 @@ const config = {
     {
       title: 'Hack or Snooze',
       description:
-        'Technlogies: JavaScript ES6, AJAX (axios), HTML5, CSS3. In this project, users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There`s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6, incorporating AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
+        'Technologies: JavaScript ES6, AJAX (axios), HTML5, CSS3. In this project, users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There`s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6, incorporating AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
       imageUrl: 'https://i.ytimg.com/vi/S-ulm49hvmk/maxresdefault.jpg',
       link: 'https://andrephilot.github.io/Hacker_Or_Snooze/',
     },
     {
       title: 'GIF Searcher',
       description:
-        'Technlogies: JavaScript, HTML5, CSS3. The goal was to communicate with an API using AJAX and display random GIFs based on any keyword searched by a user.',
+        'Technologies: JavaScript, HTML5, CSS3. The goal was to communicate with an API using AJAX and display random GIFs based on any keyword searched by a user.',
       imageUrl: 'https://cdn.vox-cdn.com/thumbor/0mqD9EvEmDetvwWyxp18WLvIk7o=/0x0:420x314/1400x788/filters:focal(136x115:202x181):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/55279403/tenor.0.gif',
       link: 'https://andrephilot.github.io/GIF_Searcher/',
     },
     {
       title: 'AP Macro Graphing Tool',
       description:
-      "Technlogies: Process.js. This is a project I completed before I was even enrolled in the Springboard bootcamp, while I was self-studying with the help of Khan Academy’s Computer Programming course. Despite the limitations of the course, which focused on Processing.js without the use of HTML or CSS and was taught before the introduction of ES6, I was able to complete a functional product. As you explore it, you'll notice the compact display, a consequence of the course's built-in code editor on the browser. This tool was specifically crafted to simplify my responsibilities as an AP Macro teacher. Its primary function is to generate all necessary AP Macro graphs for a variety of economic scenarios. By selecting the preferred graph model and optional curve shifts, I could effortlessly produce the visuals I needed.",
+      "Technologies: Process.js. This is a project I completed before I was even enrolled in the Springboard bootcamp, while I was self-studying with the help of Khan Academy’s Computer Programming course. Despite the limitations of the course, which focused on Processing.js without the use of HTML or CSS and was taught before the introduction of ES6, I was able to complete a functional product. As you explore it, you'll notice the compact display, a consequence of the course's built-in code editor on the browser. This tool was specifically crafted to simplify my responsibilities as an AP Macro teacher. Its primary function is to generate all necessary AP Macro graphs for a variety of economic scenarios. By selecting the preferred graph model and optional curve shifts, I could effortlessly produce the visuals I needed.",
       imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqpuFxsgZC1YrfxClJbj7zk--MrmU-oojF-g&usqp=CAU',
       link: 'https://andrephilot.github.io/AP_Macro_Graphing_Tool/',
     },
