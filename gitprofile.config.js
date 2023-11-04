@@ -68,7 +68,7 @@ const config = {
   ], */
   education: [
     {
-      institution: 'Springboard',
+      institution: 'Springboard Bootcamp',
       degree: 'Software Engineering Certification',
       from: '2023',
       to: 'Present',
