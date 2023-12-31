@@ -37,7 +37,7 @@ const config = {
     'Python',
     'React.js',
     'Flask',
-    'MySQL',
+    'PostgreSQL',
     'Git',
     'HTML5',
     'CSS',
@@ -126,7 +126,7 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'winter',
+    defaultTheme: 'dark',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
