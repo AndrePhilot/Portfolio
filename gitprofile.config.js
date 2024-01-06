@@ -44,7 +44,7 @@ const config = {
     'Flask',
     'Postgre',
     'Git',
-    'HTML5',
+    'HTML',
     'CSS',
     'REST',
     'Bootstrap',
