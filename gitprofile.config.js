@@ -46,7 +46,7 @@ const config = {
   experiences: [
     {
       company: 'Springboard Bootcamp',
-      position: 'Trainee in the Software Engineering Career Track',
+      position: 'Software Engineer',
       from: 'August 2023',
       to: 'Present',
       companyLink: 'https://www.springboard.com/courses/software-engineering-career-track/',
