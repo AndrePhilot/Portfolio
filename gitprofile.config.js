@@ -98,14 +98,14 @@ const config = {
     {
       title: 'Hack or Snooze',
       description:
-        'Technologies: JavaScript ES6, AJAX (axios), HTML5, CSS3. In this project, users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There`s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6, incorporating AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
+        'Technologies: JavaScript ES6, AJAX (axios), HTML5, CSS3. In this forum-like application inspired by the HackerNews website, users are encouraged to share technology articles that they find interesting. Users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can also add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There’s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6 and incorporates AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
       imageUrl: 'https://i.ytimg.com/vi/S-ulm49hvmk/maxresdefault.jpg',
       link: 'https://andrephilot.github.io/Hacker_Or_Snooze/',
     },
     {
       title: 'Jeopardy! Game',
       description:
-        'Technologies: JavaScript, jQuery, AJAX, CSS and HTML. Implemented a 6x5 game board with randomly selected categories and questions from the jService API. Enabled users to reveal questions and answers with click interactions, replicating the Jeopardy TV show format and design. Integrated a "Restart" button to fetch new categories and questions, enhancing replayability. Dynamically updated the game board with question texts, providing an interactive and engaging user experience. Demonstrated proficiency in handling asynchronous requests with AJAX for seamless data retrieval from the jService API.',
+        'Technologies: JavaScript, jQuery, AJAX, CSS and HTML to create a dynamic Jeopardy game. Implemented a 6x5 game board with randomly selected categories and questions from the jService API. Enabled users to reveal questions and answers with click interactions, replicating the Jeopardy TV show format and design. Integrated a ”Restart” button to fetch new categories and questions, enhancing replayability. Dynamically updated the game board with question texts, providing an interactive and engaging user experience. Demonstrated proficiency in handling asynchronous requests with AJAX for seamless data retrieval from the jService API.',
       imageUrl: 'https://media0.giphy.com/media/1vZaAcldbX8Xh6lMlV/giphy.gif',
       link: 'https://github.com/AndrePhilot/Jeopardy',
     },
