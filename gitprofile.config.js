@@ -103,11 +103,11 @@ const config = {
       link: 'https://andrephilot.github.io/Hacker_Or_Snooze/',
     },
     {
-      title: 'GIF Searcher',
+      title: 'Jeopardy! Game',
       description:
-        'Technologies: JavaScript, HTML5, CSS3. The goal was to communicate with an API using AJAX and display random GIFs based on any keyword searched by a user.',
-      imageUrl: 'https://cdn.vox-cdn.com/thumbor/0mqD9EvEmDetvwWyxp18WLvIk7o=/0x0:420x314/1400x788/filters:focal(136x115:202x181):format(gif)/cdn.vox-cdn.com/uploads/chorus_image/image/55279403/tenor.0.gif',
-      link: 'https://andrephilot.github.io/GIF_Searcher/',
+        'Technologies: JavaScript, jQuery, AJAX, CSS and HTML. Implemented a 6x5 game board with randomly selected categories and questions from the jService API. Enabled users to reveal questions and answers with click interactions, replicating the Jeopardy TV show format and design. Integrated a "Restart" button to fetch new categories and questions, enhancing replayability. Dynamically updated the game board with question texts, providing an interactive and engaging user experience. Demonstrated proficiency in handling asynchronous requests with AJAX for seamless data retrieval from the jService API.',
+      imageUrl: 'https://media0.giphy.com/media/1vZaAcldbX8Xh6lMlV/giphy.gif',
+      link: 'https://github.com/AndrePhilot/Jeopardy',
     },
     {
       title: 'AP Macro Graphing Tool',
