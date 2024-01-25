@@ -181,10 +181,10 @@ const config = {
 
     // Custom theme
     customTheme: {
-      primary: '#ffffff',
+      primary: '#df3225',
       secondary: '#000000',
       accent: '#fff200',
-      neutral: '#1fff00',
+      neutral: '#d4c4a4',
       'base-100': '#1b2b3b',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
