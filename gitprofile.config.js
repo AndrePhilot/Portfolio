@@ -132,7 +132,15 @@ const config = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'customTheme',
+    customTheme: {
+      primary: '#1b2b3b',
+      secondary: '#df3225',
+      accent: '#e8d03a',
+      neutral: '#2A2730',
+      'base-100': '#E3E3ED',
+      '--rounded-box': '3rem',
+      '--rounded-btn': '3rem',
+    },
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -178,17 +186,6 @@ const config = {
       'winter',
       'procyon',
     ],
-
-    // Custom theme
-    customTheme: {
-      primary: '#fc055b',
-      secondary: '#219aaf',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
-      '--rounded-box': '3rem',
-      '--rounded-btn': '3rem',
-    },
   },
 
   // Optional Footer. Supports plain text or HTML.
