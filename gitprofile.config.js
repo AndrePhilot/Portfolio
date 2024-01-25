@@ -183,9 +183,9 @@ const config = {
     customTheme: {
       primary: '#1b2b3b',
       secondary: '#df3225',
-      accent: '#e8d03a',
-      neutral: '#2A2730',
-      'base-100': '#E3E3ED',
+      accent: '#afa821',
+      neutral: '#32af21',
+      'base-100': '#0bd2e0',
       '--rounded-box': '3rem',
       '--rounded-btn': '3rem',
     },
