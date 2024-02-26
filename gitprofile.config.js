@@ -7,7 +7,7 @@ const config = {
     limit: 4, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['Fruit_Search', 'Memory_Game', 'GIF_Searcher', 'Jeopardy', 'AP_Macro_Graphing_Tool', 'Hacker_Or_Snooze', 'MacroMastery'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['Fruit_Search', 'Memory_Game', 'GIF_Searcher', 'Jeopardy', 'AP_Macro_Graphing_Tool', 'Hacker_Or_Snooze', 'AP_Macro_Graphing_Tool'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -43,10 +43,12 @@ const config = {
     'Express',
     'Flask',
     'Postgre',
+    'BigQuery',
     'Git',
     'HTML',
     'CSS',
     'REST',
+    'Gunicorn',
     'Bootstrap',
   ],
   experiences: [
@@ -96,6 +98,13 @@ const config = {
   // To hide the `My Projects` section, keep it empty.
   externalProjects: [
     {
+      title: 'MacroMastery',
+      description:
+      "Technologies: BigQuery, Node.js, Python, Flask, Gunicorn, Render, JavaScript, HTML and CSS. MacroMastery redefines AP Macroeconomics preparation with a cutting-edge full-stack application and it stands out as the sole provider of immersive free-response practice. Our platform utilizes advanced natural language understanding powered by Dialogflow API, enabling seamless interaction through our intuitive chatbot interface. Leveraging the scalability and power of Google Cloud Services, our database is seamlessly integrated with BigQuery, ensuring lightning-fast access to comprehensive question sets.",
+      imageUrl: 'https://i.ibb.co/SvbbF6d/Screenshot-2024-02-22-at-10-43-11-AM.png',
+      link: 'https://macromastery.onrender.com/',
+    },
+    {
       title: 'Hack or Snooze',
       description:
         'Technologies: JavaScript ES6, AJAX (axios), HTML5, CSS3. In this forum-like application inspired by the HackerNews website, users are encouraged to share technology articles that they find interesting. Users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can also add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There’s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6 and incorporates AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
@@ -108,13 +117,6 @@ const config = {
         'Technologies: JavaScript, jQuery, AJAX, CSS and HTML to create a dynamic Jeopardy game. Implemented a 6x5 game board with randomly selected categories and questions from the jService API. Enabled users to reveal questions and answers with click interactions, replicating the Jeopardy TV show format and design. Integrated a ”Restart” button to fetch new categories and questions, enhancing replayability. Dynamically updated the game board with question texts, providing an interactive and engaging user experience. Demonstrated proficiency in handling asynchronous requests with AJAX for seamless data retrieval from the jService API.',
       imageUrl: 'https://media0.giphy.com/media/1vZaAcldbX8Xh6lMlV/giphy.gif',
       link: 'https://github.com/AndrePhilot/Jeopardy',
-    },
-    {
-      title: 'AP Macro Graphing Tool',
-      description:
-      "Technologies: Process.js. This is a project I completed before I was even enrolled in the Springboard bootcamp, while I was self-studying with the help of Khan Academy’s Computer Programming course. Despite the limitations of the course, which focused on Process.js without the use of HTML or CSS and was taught before the introduction of ES6, I was able to complete a functional product. As you explore it, you'll notice the compact display, a consequence of the course's built-in code editor on the browser. This tool was specifically crafted to simplify my responsibilities as an AP Macro teacher. Its primary function is to generate all necessary AP Macro graphs for a variety of economic scenarios. By selecting the preferred graph model and optional curve shifts, I could effortlessly produce the visuals I needed.",
-      imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqpuFxsgZC1YrfxClJbj7zk--MrmU-oojF-g&usqp=CAU',
-      link: 'https://andrephilot.github.io/AP_Macro_Graphing_Tool/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
