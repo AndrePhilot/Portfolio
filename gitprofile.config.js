@@ -42,7 +42,7 @@ const config = {
     'Node.js',
     'Express',
     'Flask',
-    'Postgre',
+    'Postgres',
     'BigQuery',
     'Git',
     'HTML',
