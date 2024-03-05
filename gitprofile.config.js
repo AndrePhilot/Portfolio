@@ -116,7 +116,7 @@ const config = {
       description:
         'Technologies: JavaScript, jQuery, AJAX, CSS and HTML to create a dynamic Jeopardy game. Implemented a 6x5 game board with randomly selected categories and questions from the jService API. Enabled users to reveal questions and answers with click interactions, replicating the Jeopardy TV show format and design. Integrated a ”Restart” button to fetch new categories and questions, enhancing replayability. Dynamically updated the game board with question texts, providing an interactive and engaging user experience. Demonstrated proficiency in handling asynchronous requests with AJAX for seamless data retrieval from the jService API.',
       imageUrl: 'https://media0.giphy.com/media/1vZaAcldbX8Xh6lMlV/giphy.gif',
-      link: 'https://github.com/AndrePhilot/Jeopardy',
+      link: 'https://andrephilot.github.io/Jeopardy/',
     },
   ],
   // Display blog posts from your medium or dev account. (Optional)
