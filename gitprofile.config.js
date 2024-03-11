@@ -7,7 +7,7 @@ const config = {
     limit: 4, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['Fruit_Search', 'Memory_Game', 'GIF_Searcher', 'Jeopardy', 'AP_Macro_Graphing_Tool', 'Hacker_Or_Snooze', 'AP_Macro_Graphing_Tool', 'MacroMastery'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['Twitter-Clone', 'Connect-Four-Refactoring', 'Car-OO-Project', 'Memory-Game', 'Predictive-Text-Project', 'TODO-App', 'Fruit_Search', 'Memory_Game', 'GIF_Searcher', 'Jeopardy', 'AP_Macro_Graphing_Tool', 'Hacker_Or_Snooze', 'AP_Macro_Graphing_Tool', 'MacroMastery'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
