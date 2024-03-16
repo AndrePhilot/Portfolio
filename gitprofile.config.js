@@ -7,7 +7,7 @@ const config = {
     limit: 4, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['Twitter-Clone', 'Connect-Four-Refactoring', 'Car-OO-Project', 'Memory-Game', 'Predictive-Text-Project', 'TODO-App', 'Fruit_Search', 'Memory_Game', 'GIF_Searcher', 'Jeopardy', 'AP_Macro_Graphing_Tool', 'Hacker_Or_Snooze', 'AP_Macro_Graphing_Tool', 'MacroMastery'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['Jobly', 'Twitter-Clone', 'Connect-Four-Refactoring', 'Car-OO-Project', 'Memory-Game', 'Predictive-Text-Project', 'TODO-App', 'Fruit_Search', 'Memory_Game', 'GIF_Searcher', 'Jeopardy', 'AP_Macro_Graphing_Tool', 'Hacker_Or_Snooze', 'AP_Macro_Graphing_Tool', 'MacroMastery'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -103,6 +103,13 @@ const config = {
       "Technologies: BigQuery, Node.js, Python, Flask, Gunicorn, Render, JavaScript, HTML and CSS. MacroMastery redefines AP Macroeconomics preparation with a cutting-edge full-stack application that stands out as the sole provider of immersive free-response practice. Our platform utilizes advanced natural language understanding powered by Dialogflow API, enabling seamless interaction through our intuitive chatbot interface. Leveraging the scalability and power of Google Cloud Services, our database is seamlessly integrated with BigQuery, ensuring lightning-fast access to comprehensive question sets.",
       imageUrl: 'https://i.ibb.co/SvbbF6d/Screenshot-2024-02-22-at-10-43-11-AM.png',
       link: 'https://macromastery.onrender.com/',
+    },
+    {
+      title: 'Jobly',
+      description:
+      "Technologies: Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, RESTful API and Jest. Jobly is a Node.js backend application empowering users to browse job openings, filter by title and salary, and explore company details. Admin-exclusive job posting is secured using JSON Web Tokens (JWT). Leveraging Express, it offers a RESTful API for seamless communication. JSON schemas ensure data integrity, while Object-Oriented Principles facilitate full CRUD operations on User, Job, and Company objects. Rigorously tested with Jest, boasting over 180 unit tests, Jobly guarantees reliability and stability.",
+      imageUrl: 'https://www.stockvault.net/data/2018/07/15/253106/preview16.jpg',
+      link: 'https://github.com/AndrePhilot/Jobly',
     },
     {
       title: 'Hack or Snooze',
