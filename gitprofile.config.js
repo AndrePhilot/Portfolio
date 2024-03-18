@@ -111,7 +111,7 @@ const config = {
     {
       title: 'Jobly',
       description:
-      "Technologies: Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, RESTful API and Jest. Jobly is a Node.js backend application empowering users to browse job openings, filter by title and salary, and explore company details. Admin-exclusive job posting is secured using JSON Web Tokens (JWT). Express is employed to provide a RESTful API for seamless communication. JSON schemas ensure data integrity, while Object-Oriented Principles facilitate full CRUD operations on User, Job, and Company objects. Rigorously tested with Jest, boasting over 180 unit tests, Jobly guarantees reliability and stability.",
+      "Technologies: Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, RESTful API and Jest. Jobly is a Node.js backend application empowering users to browse job openings, filter by title and salary, and explore company details. Admin-exclusive job posting is secured using JSON Web Tokens (JWT). Express is employed to provide a RESTful API for seamless communication. JSON schemas ensure data integrity, while Object-Oriented Principles facilitate full CRUD operations on User, Job, and Company objects. Rigorously tested with Jest, boasting almost 200 unit and integration tests, Jobly guarantees reliability and stability.",
       imageUrl: 'https://www.stockvault.net/data/2018/07/15/253106/preview16.jpg',
       link: 'https://github.com/AndrePhilot/Jobly',
     },
