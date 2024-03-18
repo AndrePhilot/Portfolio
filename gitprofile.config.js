@@ -111,14 +111,14 @@ const config = {
     {
       title: 'Jobly',
       description:
-      "Technologies: Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, RESTful API and Jest. Jobly is a Node.js backend application empowering users to browse job openings, filter by title and salary, and explore company details. Admin-exclusive job posting is secured using JSON Web Tokens (JWT). Leveraging Express, it offers a RESTful API for seamless communication. JSON schemas ensure data integrity, while Object-Oriented Principles facilitate full CRUD operations on User, Job, and Company objects. Rigorously tested with Jest, boasting over 180 unit tests, Jobly guarantees reliability and stability.",
+      "Technologies: Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, RESTful API and Jest. Jobly is a Node.js backend application empowering users to browse job openings, filter by title and salary, and explore company details. Admin-exclusive job posting is secured using JSON Web Tokens (JWT). Express is employed to provide a RESTful API for seamless communication. JSON schemas ensure data integrity, while Object-Oriented Principles facilitate full CRUD operations on User, Job, and Company objects. Rigorously tested with Jest, boasting over 180 unit tests, Jobly guarantees reliability and stability.",
       imageUrl: 'https://www.stockvault.net/data/2018/07/15/253106/preview16.jpg',
       link: 'https://github.com/AndrePhilot/Jobly',
     },
     {
       title: 'Hack or Snooze',
       description:
-        'Technologies: JavaScript ES6, AJAX (axios), HTML5, CSS3. In this forum-like application inspired by the HackerNews website, users are encouraged to share technology articles that they find interesting. Users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can also add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There’s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6 and incorporates AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
+        'Technologies: JavaScript ES6, AJAX (axios), HTML5, CSS3. In this forum-like application inspired by the HackerNews website, users are encouraged to share technology articles that they find interesting. Users have the ability to create a personalized account by setting up a username and can log in or log out as needed. They can also add or remove stories from the forum feed, giving them control over the content they see. Additionally, users can manage their favorite stories by adding or deleting them. There`s also a dedicated section where users can easily view all the stories they have created. The project is built with JavaScript ES6 and incorporates AJAX requests to the Hacker News API via axios. It features responsive design and follows a separation of concerns architecture.',
       imageUrl: 'https://i.ytimg.com/vi/S-ulm49hvmk/maxresdefault.jpg',
       link: 'https://andrephilot.github.io/Hacker_Or_Snooze/',
     },
