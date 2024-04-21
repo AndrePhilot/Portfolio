@@ -54,6 +54,8 @@ const config = {
     'REST',
     'Gunicorn',
     'Bootstrap',
+    'Spline',
+    'AWS'
   ],
   experiences: [
     {
