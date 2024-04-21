@@ -7,7 +7,7 @@ const config = {
     limit: 4, // How many projects to display.
     exclude: {
       forks: true, // Forked projects will not be displayed if set to true.
-      projects: ['lab-javascript-koans', 'CheeZJokes', 'dogfinder', 'color-factory', 'VendingMachine', 'Custom_Hooks', 'Trees_Exercise', 'React_Effects', 'Forms_Exercise', 'Lights_Out', 'React_Testing_Exercise', 'EightBall', 'react-jsx-intro', 'Jobly', 'Twitter-Clone', 'Connect-Four-Refactoring', 'Car-OO-Project', 'Memory-Game', 'Predictive-Text-Project', 'TODO-App', 'Fruit_Search', 'Memory_Game', 'GIF_Searcher', 'Jeopardy', 'AP_Macro_Graphing_Tool', 'Hacker_Or_Snooze', 'AP_Macro_Graphing_Tool', 'MacroMastery'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
+      projects: ['Ant-frontend', 'Ant-backend', 'lab-javascript-koans', 'CheeZJokes', 'dogfinder', 'color-factory', 'VendingMachine', 'Custom_Hooks', 'Trees_Exercise', 'React_Effects', 'Forms_Exercise', 'Lights_Out', 'React_Testing_Exercise', 'EightBall', 'react-jsx-intro', 'Jobly', 'Twitter-Clone', 'Connect-Four-Refactoring', 'Car-OO-Project', 'Memory-Game', 'Predictive-Text-Project', 'TODO-App', 'Fruit_Search', 'Memory_Game', 'GIF_Searcher', 'Jeopardy', 'AP_Macro_Graphing_Tool', 'Hacker_Or_Snooze', 'AP_Macro_Graphing_Tool', 'MacroMastery'], // These projects will not be displayed. example: ['my-project1', 'my-project2']
     },
   },
   social: {
@@ -109,11 +109,11 @@ const config = {
       link: 'https://macromastery.onrender.com/',
     },
     {
-      title: 'Jobly',
+      title: 'Nutjobs',
       description:
-      "Technologies: Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, RESTful API and Jest. Jobly is a Node.js backend application empowering users to browse job openings, filter by title and salary, and explore company details. Admin-exclusive job posting is secured using JSON Web Tokens (JWT). Express is employed to provide a RESTful API for seamless communication. JSON schemas ensure data integrity, while Object-Oriented Principles facilitate full CRUD operations on User, Job, and Company objects. Rigorously tested with Jest, boasting almost 200 unit and integration tests, Jobly guarantees reliability and stability.",
+      "Technologies: React, Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, AWS RDS, AWS S3, RESTful API, Bootstrap, Spline and Jest. Nutjobs is a full-stack job search platform offering intuitive filtering by title and salary. Secured with JSON Web Tokens (JWT) and JSON schemas for data integrity, Nutjobs ensures user privacy. Built with OOP principles for seamless CRUD operations, it's rigorously tested with Jest. The backend, a RESTful API on Express.js, connects to PostgreSQL on AWS RDS for scalability. Frontend, powered by React, deploys on S3 for lightning-fast performance. Nutjobs revolutionizes job hunting, delivering a streamlined experience with advanced technology.",
       imageUrl: 'https://www.stockvault.net/data/2018/07/15/253106/preview16.jpg',
-      link: 'https://github.com/AndrePhilot/Jobly',
+      link: 'http://nutjobs-frontend.s3-website.us-east-2.amazonaws.com/',
     },
     {
       title: 'Hack or Snooze',
