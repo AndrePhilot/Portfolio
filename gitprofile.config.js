@@ -106,9 +106,9 @@ const config = {
     {
       title: 'MacroMastery',
       description:
-      "Technologies: BigQuery, Node.js, Python, Flask, Gunicorn, Render, JavaScript, HTML and CSS. MacroMastery redefines AP Macroeconomics preparation with a cutting-edge full-stack application that stands out as the sole provider of immersive free-response practice. Our platform utilizes advanced natural language understanding powered by Dialogflow API, enabling seamless interaction through our intuitive chatbot interface. Our database is powered by BigQuery, a Google Cloud Service. We also sell products for students and teachers by linking our page to the Stripe API. The application is hosted at a AWS Elastic Beanstalk server and a CI/CD AWS CodePipeline connected with GitHub.",
+      "Technologies: BigQuery, Node.js, Python, Flask, AWS, JavaScript, HTML and CSS. MacroMastery redefines AP Macroeconomics preparation with a cutting-edge full-stack application that stands out as the sole provider of immersive free-response practice. Our platform utilizes advanced natural language understanding powered by Dialogflow API, enabling seamless interaction through our intuitive chatbot interface. Our database is powered by BigQuery, a Google Cloud Service. We also sell products for students and teachers by linking our page to the Stripe API. The application is hosted at a AWS Elastic Beanstalk server and a CI/CD AWS CodePipeline connected with GitHub.",
       imageUrl: 'https://i.ibb.co/SvbbF6d/Screenshot-2024-02-22-at-10-43-11-AM.png',
-      link: 'http://macromastery-env.eba-umapubbq.us-east-1.elasticbeanstalk.com/',
+      link: 'https://macroeconmastery.com/',
     },
     {
       title: 'Nutjobs',
