@@ -69,7 +69,7 @@ const config = {
       company: 'Springboard Bootcamp',
       position: 'Software Engineer',
       from: 'August 2023',
-      to: 'Present',
+      to: 'July 2024',
       companyLink: 'https://www.springboard.com/courses/software-engineering-career-track/',
     },
     {
