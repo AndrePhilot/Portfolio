@@ -59,6 +59,13 @@ const config = {
   ],
   experiences: [
     {
+      company: 'MacroeconMastery',
+      position: 'Software Engineer',
+      from: 'May 2024',
+      to: 'Present',
+      companyLink: 'https://www.macroeconmastery.com/',
+    },
+    {
       company: 'Springboard Bootcamp',
       position: 'Software Engineer',
       from: 'August 2023',
