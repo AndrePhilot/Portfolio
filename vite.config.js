@@ -4,13 +4,14 @@ import tailwind from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
 import tailwindConfig from './tailwind.config.mjs';
 import { VitePWA } from 'vite-plugin-pwa';
+import { readFileSync } from 'fs'; // Import fs to read the version.txt file
+import { resolve } from 'path'; // Import path to resolve the path to version.txt
+
+// Read version from version.txt
+const version = readFileSync(resolve(__dirname, 'version.txt'), 'utf-8').trim();
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  // If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/<USERNAME>, set base to '/'.
-
-  // If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/, for example your repository is at https://github.com/<USERNAME>/<REPO_NAME>, then set base to '/<REPO_NAME>/'.
-
   base: '/portfolio/',
   plugins: [
     react(),
@@ -37,6 +38,15 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwind(tailwindConfig), autoprefixer],
+    },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        entryFileNames: `assets/[name].[hash].js?v=${version}`, // Include version in JS files
+        chunkFileNames: `assets/[name].[hash].js?v=${version}`, // Include version in chunk files
+        assetFileNames: `assets/[name].[hash].[ext]?v=${version}`, // Include version in assets
+      },
     },
   },
 });
