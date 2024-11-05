@@ -36,6 +36,7 @@ const config = {
     'JavaScript',
     'Python',
     'TypeScript',
+    'AWS',
     'OOP',
     'SQL',
     'React',
@@ -54,8 +55,7 @@ const config = {
     'REST',
     'Gunicorn',
     'Bootstrap',
-    'Spline',
-    'AWS'
+    'Spline'
   ],
   experiences: [
     {
