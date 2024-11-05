@@ -92,7 +92,7 @@ const config = {
       institution: 'Springboard Bootcamp',
       degree: 'Software Engineering Certification',
       from: '2023',
-      to: 'Present',
+      to: '2024',
     },
     {
       institution: 'Metropolitan University',
