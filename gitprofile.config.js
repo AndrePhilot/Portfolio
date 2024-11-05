@@ -54,8 +54,8 @@ const config = {
     'CSS',
     'REST',
     'Gunicorn',
-    'Bootstrap',
-    'Spline'
+    'Spline',
+    'Bootstrap'
   ],
   experiences: [
     {
