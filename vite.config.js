@@ -6,11 +6,9 @@ import tailwindConfig from './tailwind.config.mjs';
 import { VitePWA } from 'vite-plugin-pwa';
 
 // https://vitejs.dev/config/
+const randomVersion = Date.now(); // Use the current timestamp as a unique query string
+
 export default defineConfig({
-  // If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/<USERNAME>, set base to '/'.
-
-  // If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/, for example your repository is at https://github.com/<USERNAME>/<REPO_NAME>, then set base to '/<REPO_NAME>/'.
-
   base: '/portfolio/',
   plugins: [
     react(),
@@ -37,6 +35,13 @@ export default defineConfig({
   css: {
     postcss: {
       plugins: [tailwind(tailwindConfig), autoprefixer],
+    },
+  },
+  build: {
+    rollupOptions: {
+      output: {
+        assetFileNames: `[name].[ext]?v=${randomVersion}`, // Append a random query parameter
+      },
     },
   },
 });
