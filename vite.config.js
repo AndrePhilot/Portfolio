@@ -9,15 +9,29 @@ import { VitePWA } from 'vite-plugin-pwa';
 export default defineConfig({
   // If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/<USERNAME>, set base to '/'.
 
-  // If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/, for example your repository is at https://github.com/<USERNAME>/<REPO_NAME>, then set base to '/<REPO_NAME>/'.
-
+  // If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/, for example your repository is at https://github.com/<USERNAME>/<REPO_NAME>, then set base to '/<REPO_NAME>/'.  
   base: '/portfolio/',
   plugins: [
     react(),
     VitePWA({
       registerType: 'autoUpdate',
       workbox: {
-        navigateFallback: undefined,
+        globPatterns: ['**/*.{js,css,html,png,jpg,svg}'], // Specify the file types to cache
+        runtimeCaching: [
+          {
+            urlPattern: ({ request }) => 
+              request.destination === 'document' || request.destination === 'script',
+            handler: 'NetworkFirst', // This strategy tries to fetch the latest version from the network
+            options: {
+              cacheName: 'html-cache',
+              expiration: {
+                maxEntries: 50, // Adjust as needed
+                maxAgeSeconds: 24 * 60 * 60, // Cache for 1 day
+              },
+            },
+          },
+          // You can add more caching strategies for other file types here if needed
+        ],
       },
       includeAssets: ['logo.png'],
       manifest: {
