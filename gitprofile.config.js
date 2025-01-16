@@ -120,9 +120,9 @@ const config = {
     {
       title: 'Nutjobs',
       description:
-      "Technologies: React, Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, AWS RDS, AWS S3, RESTful API, Bootstrap, Spline and Jest. Nutjobs is a full-stack job search platform offering intuitive filtering by title and salary. Secured with JSON Web Tokens (JWT) and JSON schemas for data integrity, Nutjobs ensures user privacy. Built with OOP principles for seamless CRUD operations, it's rigorously tested with Jest. The backend, a RESTful API on Express.js, connects to PostgreSQL on AWS RDS for scalability. Frontend, powered by React, deploys on S3 for lightning-fast performance. Nutjobs revolutionizes job hunting, delivering a streamlined experience with advanced technology.",
+      "Technologies: React, Node.js, Express, PostgreSQL, JavaScript, JWT, JSON Schemas, OOP, Google Cloud Service, RESTful API, Bootstrap, Spline and Jest. Nutjobs is a full-stack job search platform offering intuitive filtering by title and salary. Secured with JSON Web Tokens (JWT) and JSON schemas for data integrity, Nutjobs ensures user privacy. Built with OOP principles for seamless CRUD operations, it's rigorously tested with Jest. The backend, a RESTful API on Express.js, connects to PostgreSQL on an Google Cloud Enterprise database for scalability. Frontend, powered by React. Nutjobs makes fun of the job hunting process, delivering a streamlined experience with advanced technology.",
       imageUrl: 'https://www.stockvault.net/data/2018/07/15/253106/preview16.jpg',
-      link: 'http://nutjobs-frontend.s3-website.us-east-2.amazonaws.com/',
+      link: 'https://nutjobs.onrender.com/',
     },
     {
       title: 'Hack or Snooze',
